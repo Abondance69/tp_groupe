@@ -1,0 +1,133 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 50%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+
+header{
+    position: fixed;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+    top: 0;
+}
+
+nav{
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+}
+
+
+nav ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+nav ul li:hover{
+    border: 2px;
+    background-color: beige;
+}
+
+
+
+header h1{
+    position: absolute;
+    text-transform: uppercase;
+    left: 5px;
+    font-weight: 900;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.post{
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+.post-text{
+    text-indent: 5px;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.post-author{
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    text-transform: uppercase;
+}
+
+.post-date{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+
+.update{
+    position: absolute;
+    padding-right: 10px;
+    bottom: 10px;
+    right: 300px;
+    background-color: aqua;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+.delete{
+    position: absolute;
+    padding-left: 10px;
+    background-color: red;
+    bottom: 10px;
+    left: 300px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+}
+
+.like{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+
+}

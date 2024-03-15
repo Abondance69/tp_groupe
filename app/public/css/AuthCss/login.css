@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+a{
+    color: black;
+}
+
+
+.container{
+    display: inline-block;
+    position: relative;
+    width: 1200px;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 30px auto;
+    text-align: center; 
+    
+    
+
+}
+
+
+nav{
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 90px;
+    z-index: 1;
+    background-color:  antiquewhite;
+
+}
+
+
+nav ul li{
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+}
+
+
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 120px;
+    text-transform: uppercase;
+}
+
+.main img{
+    position: relative;
+    right: 400px;
+    top: -55px;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 10%;
+    right: 20%;
+
+}
+
+label{
+    
+    margin:5px;
+    text-transform: uppercase;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+button{
+ padding: 5px;
+ text-transform: uppercase;
+ border-radius: 50%;
+ cursor: pointer;
+
+}
+
+
+.form-header{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.email-err, .password-err{
+    color: red;
+    padding: 10px;
+}
